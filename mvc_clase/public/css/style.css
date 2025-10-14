@@ -1,0 +1,139 @@
+/* Reset y Body */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #f8faff;
+    color: #003366;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Main ocupa el espacio entre header y footer */
+main {
+    flex: 1;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #0a74da, #3bb2ff);
+    padding: 15px 25px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar a {
+    color: #e8f2ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #fff;
+    text-shadow: 0 0 8px #fff;
+}
+
+/* Intro */
+.intro {
+    text-align: center;
+    padding: 60px 20px;
+    background: #e9f4ff;
+    border-bottom: 3px solid #cce5ff;
+}
+
+.intro h2 {
+    color: #004aad;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    color: #003366;
+    max-width: 700px;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+}
+
+.visit-link {
+    display: inline-block;
+    margin-top: 15px;
+    background: #0a74da;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.visit-link:hover {
+    background: #005bb5;
+}
+
+/* Sección de días */
+.days {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.days h3 {
+    color: #004aad;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+.grid-days {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 0 20px;
+}
+
+.day-card {
+    background: #ffffff;
+    border-radius: 12px;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: #004aad;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 74, 173, 0.1);
+}
+
+.day-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.day-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(59, 178, 255, 0.3);
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, #0a74da, #3bb2ff);
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+}
