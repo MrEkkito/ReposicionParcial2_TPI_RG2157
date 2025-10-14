@@ -15,31 +15,31 @@
 
         <div class="grid-days">
             <a href="/mvc_clase/public/dias/lunes" class="day-card">
-                <img src="https://cdn.pixabay.com/photo/2015/06/24/15/45/startup-820274_1280.jpg" alt="Lunes">
+                <img src="/mvc_clase/public/images/dia1/Bienvenida.jpeg" alt="Lunes">
                 <h4>Lunes - Inauguración & Hackathon</h4>
                 <p>Bienvenida, Ponencias y Hackathon de IA</p>
             </a>
 
             <a href="/mvc_clase/public/dias/martes" class="day-card">
-                <img src="https://cdn.pixabay.com/photo/2017/01/10/19/05/computer-1967509_1280.jpg" alt="Martes">
+                <img src="/mvc_clase/public/images/NoIMG.jpg" alt="Martes">
                 <h4>Martes - Talleres Técnicos</h4>
                 <p>Talleres prácticos de programación y robótica</p>
             </a>
 
             <a href="/mvc_clase/public/dias/miercoles" class="day-card">
-                <img src="https://cdn.pixabay.com/photo/2016/11/29/05/08/soccer-1869928_1280.jpg" alt="Miércoles">
+                <img src="/mvc_clase/public/images/NoIMG.jpg" alt="Miércoles">
                 <h4>Miércoles - Torneo de Fútbol</h4>
                 <p>Competencia deportiva entre equipos del área</p>
             </a>
 
             <a href="/mvc_clase/public/dias/jueves" class="day-card">
-                <img src="https://cdn.pixabay.com/photo/2016/11/29/01/21/fair-1869952_1280.jpg" alt="Jueves">
+                <img src="/mvc_clase/public/images/NoIMG.jpg" alt="Jueves">
                 <h4>Jueves - Feria de Logros</h4>
                 <p>Exposición de proyectos y comelona de pupusas</p>
             </a>
 
             <a href="/mvc_clase/public/dias/viernes" class="day-card">
-                <img src="https://cdn.pixabay.com/photo/2016/11/22/23/46/party-1854113_1280.jpg" alt="Viernes">
+                <img src="/mvc_clase/public/images/NoIMG.jpg" alt="Viernes">
                 <h4>Viernes - Gran Cierre</h4>
                 <p>Bingo, torneo de videojuegos y fiesta de clausura</p>
             </a>
