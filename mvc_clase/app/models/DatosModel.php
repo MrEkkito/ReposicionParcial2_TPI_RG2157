@@ -13,7 +13,7 @@ class DatosModel {
     }
 
     public function getAll() {
-        return $this->db->select("SELECT * FROM tbl_estudiantes");
+       // return $this->db->select("SELECT * FROM tbl_estudiantes");
     }
 
     public function insert($nombre, $email) {

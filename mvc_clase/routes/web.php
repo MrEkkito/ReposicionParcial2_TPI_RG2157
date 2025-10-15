@@ -3,6 +3,8 @@
 use app\controllers\HomeController;
 use app\controllers\DiasController;
 use app\controllers\DatosController;
+use app\controllers\VisitasController;
+
 use lib\Route;
 
 // Home
@@ -19,5 +21,12 @@ Route::get("/dias/miercoles", [DiasController::class, "miercoles"]);
 Route::get("/dias/jueves", [DiasController::class, "jueves"]);
 Route::get("/dias/viernes", [DiasController::class, "viernes"]);
 
+Route::get("/visitas/form", [VisitasController::class, "form"]);
+
+// Guardar comentario (POST)
+Route::post("/visitas/store", [VisitasController::class, "store"]);
+
+// Mostrar todos los comentarios
+Route::get("/visitas/comentarios", [VisitasController::class, "index"]);
 // Ejecutar el router
 Route::dispatch();

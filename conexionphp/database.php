@@ -2,7 +2,7 @@
 
 class Database {
     private $host = "db";
-    private $db_name = "db_estudiantes";
+    private $db_name = "blog_sistemas";
     private $username = "root";
     private $password = "rootpass";
     private $conn;
@@ -21,26 +21,5 @@ class Database {
             }
         }
         return $this->conn;
-    }
-
-    public function select($query, $params = []) {
-        $stmt = $this->getConnection()->prepare($query);
-        $stmt->execute($params);
-        return $stmt->fetchAll(PDO::FETCH_ASSOC);
-    }
-
-    public function insert($query, $params = []) {
-        $stmt = $this->getConnection()->prepare($query);
-        return $stmt->execute($params);
-    }
-
-    public function update($query, $params = []) {
-        $stmt = $this->getConnection()->prepare($query);
-        return $stmt->execute($params);
-    }
-
-    public function delete($query, $params = []) {
-        $stmt = $this->getConnection()->prepare($query);
-        return $stmt->execute($params);
     }
 }

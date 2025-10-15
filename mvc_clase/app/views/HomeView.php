@@ -21,7 +21,7 @@
             </a>
 
             <a href="/mvc_clase/public/dias/martes" class="day-card">
-                <img src="/mvc_clase/public/images/NoIMG.jpg" alt="Martes">
+                <img src="/mvc_clase/public/images/dia2/Taller1.jpeg" alt="Martes">
                 <h4>Martes - Talleres Técnicos</h4>
                 <p>Talleres prácticos de programación y robótica</p>
             </a>
