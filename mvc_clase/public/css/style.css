@@ -187,3 +187,26 @@ footer {
     margin: 3px 0;
     line-height: 1.2;
 }
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* columnas con ancho mínimo 200px */
+    gap: 15px; /* espacio entre imágenes */
+    padding: 20px;
+}
+
+.gallery-grid img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 74, 173, 0.1);
+    transition: transform 0.3s;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
