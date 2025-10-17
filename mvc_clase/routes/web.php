@@ -4,11 +4,13 @@ use app\controllers\HomeController;
 use app\controllers\DiasController;
 use app\controllers\DatosController;
 use app\controllers\VisitasController;
+use app\controllers\InformacionController;
 
 use lib\Route;
 
 // Home
 Route::get("/Home", [HomeController::class,"index"]);
+Route::get("/biografia", [InformacionController::class,"index"]);
 
 // CRUD estudiantes
 Route::get("/Datos", [DatosController::class,"index"]);

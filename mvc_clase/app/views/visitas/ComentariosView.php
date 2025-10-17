@@ -1,5 +1,5 @@
 <?php
-$title = $title ?? "Comentarios";
+$title = $title ?? "Foro";
 include __DIR__ . "/../layout/header.php";
 ?>
 

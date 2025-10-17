@@ -22,7 +22,7 @@ include __DIR__ . "/../layout/header.php";
                 ["Bienvenida", "Comité organizador", "Inauguración del evento y presentación del cronograma.", "/mvc_clase/public/images/dia1/Bienvenida2.jpeg"],
                 ["Ponencia 1", "Msc. Luis Contreras", "El ABC de Bitcoin.", "/mvc_clase/public/images/dia1/Conferencia1.jpeg"],
                 ["Ponencia 2", "Msc. Rodrigo Pineda", "Inteligencia Artificial Generativa, de la idea a la acción.", "/mvc_clase/public/images/dia1/Conferencia2.jpeg"],
-                ["Hackathon", "Equipo organizador", "Revolucionando la forma en que aprendemos y enseñamos.", "/mvc_clase/public/images/NoIMG.jpg"]
+                ["Hackathon", "Equipo organizador", "Revolucionando la forma en que aprendemos y enseñamos.", "/mvc_clase/public/images/dia1/HackathonB.jpeg"]
             ];
 
             foreach ($actividades as $act) {
