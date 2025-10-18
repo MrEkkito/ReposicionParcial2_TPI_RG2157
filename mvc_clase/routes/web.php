@@ -2,7 +2,6 @@
 
 use app\controllers\HomeController;
 use app\controllers\DiasController;
-use app\controllers\DatosController;
 use app\controllers\VisitasController;
 use app\controllers\InformacionController;
 
@@ -12,11 +11,6 @@ use lib\Route;
 Route::get("/Home", [HomeController::class,"index"]);
 Route::get("/biografia", [InformacionController::class,"index"]);
 
-// CRUD estudiantes
-Route::get("/Datos", [DatosController::class,"index"]);
-Route::post("/Datos", [DatosController::class,"index"]); // <-- permitir POST
-// Eliminar estudiante
-Route::get("/Datos/delete/:id", [DatosController::class, "delete"]);
 Route::get("/dias/lunes", [DiasController::class, "lunes"]);
 Route::get("/dias/martes", [DiasController::class, "martes"]);
 Route::get("/dias/miercoles", [DiasController::class, "miercoles"]);

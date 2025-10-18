@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
 }
 
-/* Main ocupa el espacio entre header y footer */
+/* Main */
 main {
     flex: 1;
 }
@@ -352,13 +352,13 @@ form button:hover {
 
 .bio-card,
 .bio-project-card {
-    background-color: #00aaff !important; /* fondo azul */
+    background-color: #00aaff !important; 
     border-radius: 12px;
     padding: 20px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
-    color: white !important; /* texto blanco */
+    color: white !important; 
 }
 
 .bio-card:hover,

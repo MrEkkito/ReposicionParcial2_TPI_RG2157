@@ -5,7 +5,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
     <style>
         .bio-intro { margin-bottom: 30px; }
@@ -75,50 +74,48 @@
                 </a>
             </div>
         </section>
-
- <!-- Habilidades -->
-<section class="bio-section" id="habilidades">
-    <h3>Mis habilidades</h3>
-    <div class="bio-grid">
-        <div class="bio-card">
-            <h4>Desarrollo Web</h4>
-            <p>
-                Conocimientos en HTML, CSS y JavaScript para crear sitios web funcionales y atractivos. Aprendiendo frameworks como React y Bootstrap.
-            </p>
+    <!-- Habilidades -->
+    <section class="bio-section" id="habilidades">
+        <h3>Mis habilidades</h3>
+        <div class="bio-grid">
+            <div class="bio-card">
+                <h4>Desarrollo Web</h4>
+                <p>
+                    Conocimientos en HTML, CSS y JavaScript para crear sitios web funcionales y atractivos. Aprendiendo frameworks como React y Bootstrap.
+                </p>
+            </div>
+            <div class="bio-card">
+                <h4>Desarrollo de Videojuegos</h4>
+                <p>
+                    Experiencia básica en creación de videojuegos 2D con Unity y Godot. Conozco fundamentos de programación en C# y GDScript.
+                </p>
+            </div>
+            <div class="bio-card">
+                <h4>Programación</h4>
+                <p>
+                    Manejo de lenguajes como Python, Java y C++. Me gusta resolver problemas y mejorar mis habilidades lógicas.
+                </p>
+            </div>
+            <div class="bio-card">
+                <h4>Bases de Datos</h4>
+                <p>
+                    Conocimientos básicos en MySQL y SQLite. Capaz de diseñar estructuras simples para almacenar y gestionar información.
+                </p>
+            </div>
+            <div class="bio-card">
+                <h4>Diseño y Creatividad</h4>
+                <p>
+                    Uso herramientas como Figma y Canva para prototipar interfaces y crear recursos visuales. Me gusta experimentar con colores y tipografías.
+                </p>
+            </div>
+            <div class="bio-card">
+                <h4>Herramientas y Control de Versiones</h4>
+                <p>
+                    Familiarizado con Git, GitHub y VSCode. Mantengo mis proyectos organizados y trabajo en entornos colaborativos.
+                </p>
+            </div>
         </div>
-        <div class="bio-card">
-            <h4>Desarrollo de Videojuegos</h4>
-            <p>
-                Experiencia básica en creación de videojuegos 2D con Unity y Godot. Conozco fundamentos de programación en C# y GDScript.
-            </p>
-        </div>
-        <div class="bio-card">
-            <h4>Programación</h4>
-            <p>
-                Manejo de lenguajes como Python, Java y C++. Me gusta resolver problemas y mejorar mis habilidades lógicas.
-            </p>
-        </div>
-        <div class="bio-card">
-            <h4>Bases de Datos</h4>
-            <p>
-                Conocimientos básicos en MySQL y SQLite. Capaz de diseñar estructuras simples para almacenar y gestionar información.
-            </p>
-        </div>
-        <div class="bio-card">
-            <h4>Diseño y Creatividad</h4>
-            <p>
-                Uso herramientas como Figma y Canva para prototipar interfaces y crear recursos visuales. Me gusta experimentar con colores y tipografías.
-            </p>
-        </div>
-        <div class="bio-card">
-            <h4>Herramientas y Control de Versiones</h4>
-            <p>
-                Familiarizado con Git, GitHub y VSCode. Mantengo mis proyectos organizados y trabajo en entornos colaborativos.
-            </p>
-        </div>
-    </div>
-</section>
-
+    </section>
 
         <!-- Redes sociales -->
         <div class="social-icons">
@@ -128,7 +125,7 @@
             <a href="https://instagram.com/drope.2103" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
 
-    </main>
+</main>
 
 </body>
 </html>
