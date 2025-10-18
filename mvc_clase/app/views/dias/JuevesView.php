@@ -12,7 +12,7 @@ include __DIR__ . "/../layout/header.php";
         </p>
     </section>
 
-    <!-- Itinerario manual -->
+    <!-- Itinerario -->
     <section class="activities">
         <h3>Itinerario del Martes</h3>
         <div class="activity-grid">
